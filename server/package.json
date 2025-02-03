@@ -1,0 +1,28 @@
+{
+  "name": "task_server",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "backend practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "mern",
+    "server",
+    "client"
+  ],
+  "author": "sruthi rayasam",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  }
+}
